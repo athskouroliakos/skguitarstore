@@ -1,0 +1,53 @@
+const data = {
+  products: [
+    {
+      name: 'Gibson SG Custom EB GH',
+      slug: 'gibson-sg-custom-eb-gh',
+      category: 'Guitards',
+      image: '/images/p1.jpg', // 679px × 829px
+      price: 4500,
+      countInStock: 3,
+      brand: 'Gibson',
+      rating: 5.0,
+      numReviews: 3,
+      description: 'Gibson SG Custom EB GH',
+    },
+    {
+      name: 'Fender JV Modified 60s Tele',
+      slug: 'fender-jv-modified-60s-tele',
+      category: 'Guitars',
+      image: '/images/p2.jpg',
+      price: 1400,
+      countInStock: 8,
+      brand: 'Fender',
+      rating: 4.0,
+      numReviews: 6,
+      description: 'Fender JV Modified 60s Telt',
+    },
+    {
+      name: 'Gibson Les Paul Custom SIB CH',
+      slug: 'gibson-les-paul-custom-sib-ch',
+      category: 'Guitars',
+      image: '/images/p3.jpg',
+      price: 5100,
+      countInStock: 1,
+      brand: 'Gibson',
+      rating: 5,
+      numReviews: 2,
+      description: 'Gibson Les Paul Custom SIB CH',
+    },
+    {
+      name: 'Ovation Ultra Gp',
+      slug: 'ovation-ultra-gp',
+      category: 'Guitars',
+      image: '/images/p4.jpg',
+      price: 900,
+      countInStock: 4,
+      brand: 'Ovation',
+      rating: 4.5,
+      numReviews: 5,
+      description: 'Ovation Ultra Gp',
+    },
+  ],
+};
+export default data;
