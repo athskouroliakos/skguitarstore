@@ -14,7 +14,11 @@ export default function SearchBox() {
   };
 
   return (
-    <Form className="d-flex" onSubmit={submitHandler}>
+    <Form
+      className="d-flex me-auto"
+      autocomplete="off"
+      onSubmit={submitHandler}
+    >
       <InputGroup>
         <FormControl
           type="text"
