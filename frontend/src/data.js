@@ -3,7 +3,7 @@ const data = {
     {
       name: 'Gibson SG Custom EB GH',
       slug: 'gibson-sg-custom-eb-gh',
-      category: 'Guitards',
+      category: 'Guitars',
       image: '/images/p1.jpg', // 679px × 829px
       price: 4500,
       countInStock: 3,
