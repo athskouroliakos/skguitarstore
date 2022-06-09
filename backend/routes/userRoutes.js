@@ -110,9 +110,7 @@ userRouter.put(
   '/profile',
   isAuth,
   expressAsyncHandler(async (req, res) => {
-    if (_id.match(/^[0-9a-fA-F]{24}$/)) {
-      const user = await User.findById(req.user._id);
-    }
+    const user = await User.findById(req.user._id);
     if (user) {
       user.name = req.body.name || user.name;
       user.email = req.body.email || user.email;
