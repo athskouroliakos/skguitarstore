@@ -31,7 +31,6 @@ main {
 .product img {
   width: 100%;
   max-width: 400px;
-  min-height: 800px;
 }
 .product-info {
   padding: 1rem;
