@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/athskouroliakos/skguitarstore/issues"
   },
-  "homepage": "https://github.com/athskouroliakos/skguitarstore#readme"
+  "homepage": "https://github.com/athskouroliakos/skguitarstore#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
